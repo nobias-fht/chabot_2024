@@ -12,7 +12,7 @@ Jupyter notebooks tested on Red Hat Enterprise Linux 8.6 on a AMD Epyc 7763 proc
 2. Activate a terminal with conda installed and install the environment and dependencies using 
 `conda env create -f environment.yml`
 3. Activate the environment by typing `conda activate chabot_2024`
-4. Launch a jupyter instance by typing `jupyter ntebook`
+4. Launch a jupyter instance by typing `jupyter notebook`
 
 ### Instructions for use (typical runtime on test data, 2.5 seconds, not counting image loading time)
 
@@ -27,7 +27,7 @@ Jupyter notebooks tested on Red Hat Enterprise Linux 8.6 on a AMD Epyc 7763 proc
 
 This software was written to operate on the data generated for the current publication. In order to run this analysis on your own data, you must first ensure that the data is formatted in a manner consistent with the test data. In this case, you need two files
 
-1.  A tracked label file, in the shape `TZYX` containing 3D segmented labels for each locu
+1.  A tracked label file, in the shape `TZYX` containing 3D segmented labels for each locus
 2. A raw data file, in the shape `TCZYX`, containing the raw data. In this case, it is important that the 6th channel contains the segmented (binary) RNA transcription signal which will determine when transcription is initiated
 3. Run the script, updating where appropriate the file paths
 
