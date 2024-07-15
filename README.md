@@ -16,7 +16,7 @@ Jupyter notebooks tested on Red Hat Enterprise Linux 8.6 on a AMD Epyc 7763 proc
 
 ### Instructions for use (typical runtime on test data, 2.5 seconds, not counting image loading time)
 
-1. Download the example data from [`https://tinyurl.com/chabot2024testdata`](https://tinyurl.com/chabot2024testdata). Note that this data will be moved after publication to a more stable repository (ie the bioimage archive) and place the two files (`test_raw.ims` and `test_tracked.tif` in a folder
+1. Download the example data from [`https://tinyurl.com/chabot2024testdata`](https://tinyurl.com/chabot2024testdata) and place the two files (`test_raw.ims` and `test_tracked.tif` in a folder. Note that this data will be moved after publication to a more stable repository (ie the bioimage archive).
 2. In a jupyter notebook, open the `single_image_analysis.ipynb` notebook. 
 3. Execute the first two cells to load the dependencies (1) and initialize functions (2)
 4. Update the `raw_image` and `tracked_image` variables to contain the path to the raw image and tracked image respectively (downloaded above).
